@@ -16,33 +16,6 @@ Data Science has been incremental in providing powerful insights ( which people 
 The following program is designed to both test your knowledge and to give you the feel and experience of a real world financial world - data science problem. 
 
 
-## Setup
-
-#### Python
-```
-cd python3
-./requirements.sh
-source venv/bin/activate
-./clean.sh
-./main.sh
-```
-
-#### Typescript
-```
-cd typescript
-yarn
-yarn clean
-yarn start
-```
-
-#### Scala
-```
-cd scala
-sbt clean
-sbt compile
-sbt run
-```
-
 
 ## Module 1
 
@@ -56,37 +29,7 @@ CSV Data Pipeline
 - Calculate GroupBy(month) VWAP = sum(price*volume)/sum(volume)
 - Write output CSV file 
 
-#### Python
-- [./python3/module_1/main.py](./python3/module_1/main.py) 
-- [./python3/module_1/StockAnalysis.py](./python3/module_1/StockAnalysis.py)
-```
-cd python3
-source venv/bin/activate
-python3 ./module_1/main.py
-```
-
-#### Typescript
-- [./typescript/module_1/index.ts](./typescript/module_1/index.ts)
-- [./typescript/module_1/StockAnalysis.ts](./typescript/module_1/StockAnalysis.ts)
-```
-cd typescript
-yarn start:module_1
-```
-
-#### Scala
-- [./scala/src/main/scala/module_1/Main.scala](./scala/src/main/scala/module_1/Main.scala)
-- [./scala/src/main/scala/module_1/StockAnalysis.scala](./scala/src/main/scala/module_1/StockAnalysis.scala)
-- [./scala/src/main/scala/module_1/StockPrice.scala](./scala/src/main/scala/module_1/StockPrice.scala)
-- [./scala/src/main/scala/module_1/StockPriceCSV.scala](./scala/src/main/scala/module_1/StockPriceCSV.scala)
-- [./scala/src/main/scala/module_1/Utils.scala](./scala/src/main/scala/module_1/Utils.scala)
-```
-cd scala
-sbt "runMain module_1.StockAnalysis"
-```
-
-
 ## Module 2
-- [./python3/module_2/module_2.ipynb](./python3/module_2/module_2.ipynb)
 
 Data Visualization 
   - Discrete Series Plot
@@ -101,54 +44,23 @@ Calculations
   - Beta vs Index
   - Simple Moving Average
   - Bollinger Bands
-  
-
-#### Python
-```
-cd python3
-source venv/bin/activate
-jupyter lab module_2/module_2.ipynb
-```
  
 
 ## Module 3
-
-- [./python3/module_3/module_3.ipynb](./python3/module_3/module_3.ipynb)
 
 Fundamental Analysis using Linear Regression
 - Split / Score / Predict 
 - Correlation Coefficient
 - Polynomial Features
 
-
-#### Python
-```
-cd python3
-source venv/bin/activate
-jupyter lab module_3/module_3.ipynb
-```
-
-
 ## Module 4
-
-- [./python3/module_4/module_4.ipynb](./python3/module_4/module_4.ipynb)
 
 Trade Call Prediction using Classification
 - Classification Comparison
 - Random Forest
 
 
-#### Python
-```
-cd python3
-source venv/bin/activate
-jupyter lab module_4/module_4.ipynb
-```
-
-
 ## Module 5
-
-- [./python3/module_5/module_5.ipynb](./python3/module_5/module_5.ipynb)
 
 Modern Portfolio Theory
 - Annualized Volatility and Returns
@@ -157,25 +69,9 @@ Modern Portfolio Theory
 - Scikit-Optimize
 
 
-#### Python
-```
-cd python3
-source venv/bin/activate
-jupyter lab module_5/module_5.ipynb
-```
-
-
 ## Module 6
-
-- [./python3/module_6/module_6.ipynb](./python3/module_6/module_6.ipynb)
 
 Clustering for Diversification Analysis 
 - K-means clustering
 - Elbow curve method
 
-#### Python
-```
-cd python3
-source venv/bin/activate
-jupyter lab module_6/module_6.ipynb
-```
