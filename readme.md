@@ -4,7 +4,7 @@
 
 This repository contains my comprehensive work during the Aspiration.AI Machine Learning Internship, where I developed and implemented various data science and machine learning techniques for financial market analysis. The project demonstrates proficiency in data processing, statistical analysis, machine learning algorithms, and portfolio optimization techniques applied to real-world financial data.
 
-**Internship Link:** [Aspiration.AI Machine Learning Internship](http://www.aspiration.ai/machine-learning/internship/)
+
 
 ## Project Background
 
@@ -45,6 +45,8 @@ Develop a comprehensive data processing pipeline for financial time series data 
 - Analyzed volume patterns by trend: "Among top gainers" showed highest average volume (4.7M shares)
 - Generated week2.csv with enhanced features for subsequent analysis
 
+*Note: This module focused on data processing and statistical analysis without generating visualizations.*
+
 ## Module 2: Data Visualization and Technical Analysis
 
 ### Problem Statement
@@ -70,6 +72,24 @@ Create comprehensive visualizations and implement technical indicators for marke
 - Generated trading signals using 21-day and 34-day moving average crossovers
 - Built Bollinger Bands with 14-day periods and 2 standard deviations for technical analysis
 
+![TCS Price Chart](images/module2_tcs_price_chart.png)
+*TCS closing price line plot over time with trend analysis*
+
+![Trend Distribution](images/module2_trend_pie_chart.png)
+*Pie chart showing distribution of different market trends*
+
+![Volume Analysis](images/module2_volume_bar_charts.png)
+*Bar charts showing mean and median volume by trend categories*
+
+![Correlation Analysis](images/module2_correlation_pairplot.png)
+*Pairplot showing correlation patterns between 5 large-cap stocks*
+
+![Bollinger Bands](images/module2_bollinger_bands.png)
+*14-day Bollinger Bands with upper/lower bands and moving averages*
+
+![Trading Signals](images/module2_trading_signals.png)
+*Price chart with buy/sell signals based on moving average crossovers*
+
 ## Module 3: Fundamental Analysis using Linear Regression
 
 ### Problem Statement
@@ -93,6 +113,12 @@ Apply regression techniques for fundamental analysis, including Beta calculation
 - Implemented CAPM analysis and Beta calculations using regression approach
 - Completed missing values in target columns using trained models
 - Validated predictions using histograms and distribution plots
+
+![Gold Price Comparison](images/module3_gold_price_comparison.png)
+*Gold price comparison plot showing Price, Open, High, Low vs Predicted values*
+
+![Linear vs Polynomial Regression](images/module3_linear_polynomial.png)
+*Linear vs polynomial regression comparison for gold price predictions*
 
 ## Module 4: Trade Call Prediction using Classification
 
@@ -118,6 +144,12 @@ Develop classification models for automated trading decisions using various tech
 - Successfully applied trained model to TITAN stock data for cross-validation
 - Built Random Forest classifier for next-day price movement prediction (1 for increase, -1 for decrease)
 - Demonstrated practical application of machine learning in automated trading decisions
+
+![TITAN Trading Signals](images/module4_titan_trading_signals.png)
+*TITAN stock with Bollinger Bands and predicted trading calls*
+
+![Cumulative Returns](images/module4_cumulative_returns.png)
+*Cumulative returns plot from algorithmic trading strategy*
 
 ## Module 5: Modern Portfolio Theory
 
@@ -146,6 +178,12 @@ Implement portfolio optimization techniques using Modern Portfolio Theory princi
 - Identified optimal portfolios: highest Sharpe ratio and lowest volatility combinations
 - Demonstrated practical application of Modern Portfolio Theory principles
 
+![Monte Carlo Simulation](images/module5_monte_carlo_simulation.png)
+*Monte Carlo simulation scatter plot showing risk vs return with Sharpe ratio coloring*
+
+![Optimal Portfolios](images/module5_optimal_portfolios.png)
+*Highlighted optimal portfolios (maximum Sharpe ratio and minimum volatility)*
+
 ## Module 6: Clustering for Diversification Analysis
 
 ### Problem Statement
@@ -170,6 +208,12 @@ Apply unsupervised learning techniques for stock clustering and portfolio divers
 - Generated 3x3 grid visualization showing clustering results for different cluster numbers
 - Created cluster membership dataframes for systematic portfolio construction
 - Demonstrated practical application of unsupervised learning for stock diversification
+
+![Elbow Curve](images/module6_elbow_curve.png)
+*Elbow curve plot for optimal cluster number selection*
+
+![K-Means Clustering Grid](images/module6_kmeans_grid.png)
+*3x3 grid showing K-means clustering results for different cluster numbers*
 
 ## Technical Skills Demonstrated
 
@@ -236,38 +280,7 @@ The work showcases practical implementation of theoretical concepts in a real-wo
 └── Various CSV files      # Processed datasets and results
 ```
 
-## Key Visualizations and Results
 
-### Module 1: Data Pipeline
-- **Trend Distribution Analysis**: Bar chart showing volume patterns by trend categories
-- **VWAP Calculations**: Monthly volume-weighted average price analysis
-
-### Module 2: Technical Analysis
-- **Price Charts**: TCS closing price over time with significant events marked
-- **Stem Plots**: Daily percentage changes showing market volatility
-- **Correlation Matrix**: Heatmap of 5 large-cap stocks correlation patterns
-- **Bollinger Bands**: Price action with upper/lower bands and moving averages
-- **Volume Analysis**: Dual-axis plot showing price changes vs trading volume
-
-### Module 3: Regression Analysis
-- **Linear vs Polynomial Fits**: Comparison plots for gold price predictions
-- **Beta Calculations**: Regression plots showing stock vs market relationships
-- **Prediction Validation**: Histogram distributions of actual vs predicted values
-
-### Module 4: Classification Results
-- **Model Performance Comparison**: Bar chart of 10 classification algorithms accuracy
-- **Trading Signal Visualization**: Price chart with Bollinger Bands and predicted calls
-- **Cross-Validation Results**: TITAN stock predictions using trained model
-
-### Module 5: Portfolio Optimization
-- **Efficient Frontier**: Scatter plot of risk vs return with Sharpe ratio coloring
-- **Monte Carlo Results**: Portfolio weight combinations and their performance
-- **Optimal Portfolio Markers**: Highlighted points for best Sharpe ratio and lowest volatility
-
-### Module 6: Clustering Analysis
-- **Elbow Curve**: Inertia plot for optimal cluster number selection
-- **K-Means Results**: 3x3 grid showing clustering for different cluster numbers
-- **Cluster Centers**: Scatter plot with cluster centers marked
 
 ## Technologies Used
 
