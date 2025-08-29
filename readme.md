@@ -45,8 +45,6 @@ Develop a comprehensive data processing pipeline for financial time series data 
 - Analyzed volume patterns by trend: "Among top gainers" showed highest average volume (4.7M shares)
 - Generated week2.csv with enhanced features for subsequent analysis
 
-*Note: This module focused on data processing and statistical analysis without generating visualizations.*
-
 ## Module 2: Data Visualization and Technical Analysis
 
 ### Problem Statement
@@ -179,10 +177,10 @@ Implement portfolio optimization techniques using Modern Portfolio Theory princi
 - Demonstrated practical application of Modern Portfolio Theory principles
 
 ![Monte Carlo Simulation](images/module5_monte_carlo_simulation.png)
-*Monte Carlo simulation scatter plot showing risk vs return with Sharpe ratio coloring*
+*Enhanced Monte Carlo simulation with 4 marked points showing Monte Carlo vs Scikit-optimize results*
 
-![Optimal Portfolios](images/module5_optimal_portfolios.png)
-*Highlighted optimal portfolios (maximum Sharpe ratio and minimum volatility)*
+![All Stocks Analysis](images/module5_all_stocks_analysis.png)
+*All stocks analysis showing returns vs volatility for 33 stocks with annotations*
 
 ## Module 6: Clustering for Diversification Analysis
 
